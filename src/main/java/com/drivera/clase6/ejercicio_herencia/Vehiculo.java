@@ -1,4 +1,4 @@
-package com.comejia.clase6.ejercicio_herencia;
+package com.drivera.clase6.ejercicio_herencia;
 
 
 /*

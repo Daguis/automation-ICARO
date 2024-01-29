@@ -1,8 +1,8 @@
-package com.comejia.clase5.practica5;
+package com.drivera.clase5.practica5;
 
-import com.comejia.clase5.practica4.Alumno;
-import com.comejia.clase5.practica4.Persona;
-import com.comejia.clase5.practica4.Profesor;
+import com.drivera.clase5.practica4.Alumno;
+import com.drivera.clase5.practica4.Persona;
+import com.drivera.clase5.practica4.Profesor;
 
 import java.util.ArrayList;
 import java.util.List;

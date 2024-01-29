@@ -1,4 +1,4 @@
-package com.comejia.clase5.practica4;
+package com.drivera.clase5.practica4;
 
 public class Persona {
 

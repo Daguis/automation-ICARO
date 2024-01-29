@@ -1,4 +1,4 @@
-package com.comejia.clase2;
+package com.drivera.clase2;
 
 public class P2ImprimirDatos {
 
