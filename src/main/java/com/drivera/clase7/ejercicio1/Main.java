@@ -28,7 +28,7 @@ public class Main {
             System.out.println("Ingrese la operacion a realizar: + , - , / ó * ");
             String operacion = scanner.next();
 
-            String oper = "valida";
+            boolean validez = true;
 
 
             switch (operacion) {
@@ -45,13 +45,13 @@ public class Main {
                     calculadora.multiplicar(numero1, numero2);
                     break;
                 default:
-                    oper = "invalida";
+                    validez = false;
                     System.out.println("Operación No Valida");
 
             }
             Integer result = calculadora.getResultado();
-            if (oper.equals("valida")) {
 
+            if (validez) {
                 System.out.println("Primer Valor: " + numero1);
                 System.out.println("Segundo Valor: " + numero2);
                 System.out.println("Operacion: " + operacion);
@@ -65,8 +65,6 @@ public class Main {
 
             }
         }
-
-
         scanner.close();
     }
 }
