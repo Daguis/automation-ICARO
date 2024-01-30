@@ -1,4 +1,4 @@
-package com.drivera.examen.ejercicio2;
+package com.drivera.clase7.ejercicio2;
 
 public class Torre extends Personaje {
 
@@ -18,6 +18,8 @@ public class Torre extends Personaje {
     }
 
     public void entrenar() {
-        setNivel(nivel + 1);
+        nivel += 1;
     }
+
+    public void defender() {nivel += 3; }
 }

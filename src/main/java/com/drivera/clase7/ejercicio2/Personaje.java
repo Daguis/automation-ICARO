@@ -1,4 +1,4 @@
-package com.drivera.examen.ejercicio2;
+package com.drivera.clase7.ejercicio2;
 
 //Ejercicio 2
 //        Se necesita modelar los personajes de un juego y para ello se dispone de la siguiente información:

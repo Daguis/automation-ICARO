@@ -1,4 +1,4 @@
-package com.drivera.examen.ejercicio1;
+package com.drivera.clase7.ejercicio1;
 
 
 //una clase que tenga el método especial main para poder ejecutar lo que se pide en los requerimientos,

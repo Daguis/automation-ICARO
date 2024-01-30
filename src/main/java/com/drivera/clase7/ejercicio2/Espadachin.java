@@ -1,4 +1,4 @@
-package com.drivera.examen.ejercicio2;
+package com.drivera.clase7.ejercicio2;
 
 public class Espadachin extends Personaje {
     private Integer ataque;
@@ -16,9 +16,14 @@ public class Espadachin extends Personaje {
         this.ataque = ataque;
     }
 
+
     @Override
     public void entrenar() {
-        setAtaque(ataque + 10);
+        ataque += 10;
+    }
+
+    public void pelear() {
+        ataque -= 10;
     }
 }
 

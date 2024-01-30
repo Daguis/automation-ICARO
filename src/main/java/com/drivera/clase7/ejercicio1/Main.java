@@ -1,4 +1,4 @@
-package com.drivera.examen.ejercicio1;
+package com.drivera.clase7.ejercicio1;
 
     /* Ejercicio 1
     Realizar un programa que simule una calculadora.

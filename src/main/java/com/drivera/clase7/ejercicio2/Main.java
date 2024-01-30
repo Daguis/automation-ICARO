@@ -1,6 +1,4 @@
-package com.drivera.examen.ejercicio2;
-
-import com.drivera.clase5.practica4.Persona;
+package com.drivera.clase7.ejercicio2;
 
 public class Main {
     public static void main(String[] args) {
