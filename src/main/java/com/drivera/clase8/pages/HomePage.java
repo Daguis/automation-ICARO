@@ -15,6 +15,7 @@ public class HomePage {
     private By menuBy = By.id("menu");
     private By myAccountBy = By.xpath("//a[@title=\"My Account\"]");
     private By loginBy = By.xpath("//a[text()=\"Login\"]");
+    private By registerBy = By.xpath("//a[text()=\"Register\"]");
 
     private WebDriver driver;
     private WebDriverWait wait;
@@ -53,4 +54,10 @@ public class HomePage {
         WebElement loginEl = wait.until(ExpectedConditions.elementToBeClickable(loginBy));
         loginEl.click();
     }
+
+    public void clickRegister() {
+        WebElement registerEl = wait.until(ExpectedConditions.visibilityOfElementLocated(registerBy));
+        registerEl.click();
+    }
+
 }
