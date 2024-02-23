@@ -20,7 +20,8 @@ public class RegisterTest extends BaseTest {
         homePage.clickRegister();
 
         // 4- Completar formulario de registro
-        registerPage.completarCrearCuentaConNews("Diego", "Rivera", "email9990@gmail.com", "351123321", "contrasena",
+        registerPage.completarCrearCuentaConNews("Diego", "Rivera", "email99912301@gmail.com", "351123321",
+                "contrasena",
                 "contrasena");
 
         // 5- Aceptar politicas y continuar
